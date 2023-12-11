@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgba(85, 72, 227, 0.466);
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(18, 18, 18, 0.8);
+  }
+  
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 40px;
+    
+  }
+  
+  .tareasList {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+
+  
+  form {
+    /*border: solid 2px green;*/
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width:80%;
+     margin: auto;
+  }
+  input {
+    padding: 15px 10px;
+    width: 60%;
+    
+    outline: none;
+   
+  }
+  
+  .btn-add {
+   
+    color: white;
+    border: none;
+    font-family: fantasy;
+    background-color: rgb(18, 115, 15);
+    font-size: 1.4rem;
+    outline: none;
+    margin-left: 0;
+    width: 40px;
+  }
+
+  .btn-add:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+  .empty {
+    color: darkslategrey;
+    width: 55%;
+    
+    margin: auto;
+    /*border: solid 2px yellow;*/
+  }
+  .li-container {
+    width: 100%;
+  }
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    color: black;
+  }
+  
+  .btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: rgb(192, 9, 9);
+    color: beige;
+    font-family: fantasy;
+    padding: 5px 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50px;
+    font-size: 1rem;
+    margin-left: 0;
+  }
+  
+  
+  
+  .btn-delete:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
